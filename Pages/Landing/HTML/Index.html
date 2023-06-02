@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc-Helper Landing Page</title>
+    <link rel="stylesheet" href="/Modals/CSS/Modal.css">
 </head>
 <body>
+    <button id="btn__pacientes">boton-prueba</button>
     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- modal--Pacientes -->
+    <section class="modal_pacientes">
+        <div class="modal__container_pacientes">
+            <H1 class="modal__title">Nuevo Paciente</H1>
+            <form class="modal__form_pacientes">
+                <div class="col-50">
+                    <div class="form__control">
+                        <label class="input__label" for="name">Nombre</label>
+                        <input class="input__modal" type="text" name="paciente-nombre" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">Sexo</label>
+                        <input class="input__modal" type="text" name="paciente-sexo" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">Direccion</label>
+                        <input class="input__modal" type="text" name="paciente-direccion" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">DNI/CE/PASS</label>
+                        <input class="input__modal" type="text" name="paciente-dni" required>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="form__control">
+                        <label class="input__label" for="">Apellidos</label>
+                        <input class="input__modal" type="text" name="paciente-apellido" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">Edad</label>
+                        <input class="input__modal" type="text" name="paciente-edad" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">Teléfono</label>
+                        <input class="input__modal" type="text" name="paciente-telefono" required>
+                    </div>
+                    <div class="form__control">
+                        <label class="input__label" for="">E-mail</label>
+                        <input class="input__modal" type="text" name="paciente-correo" required>
+                    </div>
+                </div>
+            </form>
+            <div class="btn__container">
+                <button class="btn__close_pacientes">Cancelar</button>
+                <button class="btn__submit_pacientes">Crear</button>
+            </div>
+        </div>
+    </section>
+    <!-- modal--Doctor -->
+    <script src="/Modals/Modal-Pacientes/pacientes.js"></script>
 </body>
 </html>
