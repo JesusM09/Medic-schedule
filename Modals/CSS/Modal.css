@@ -118,7 +118,7 @@
 .btn__submit_pacientes:hover{
     transition: 0.5s;
     border: #76F68A solid 1px;
-    background-color: #ffffff;
+    background-color: white;
     color: #76F68A;
 }
 
