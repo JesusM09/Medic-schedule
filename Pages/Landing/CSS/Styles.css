@@ -1,0 +1,57 @@
+/* encabezado Doc-herper*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#encabezado {
+    color: rgb(255, 255, 255);
+    background-color: #54FCB6;
+    width:100% ;
+    height: 7vh;
+    align-content: center;
+
+}
+/* */
+.card{
+margin: 20px;
+width: 600px;
+height: 250px;
+background-color:rgb(205, 235, 235);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 93vh;
+    width: 100%;
+    align-items: center;
+}
+
+.boton{
+    color: white;
+    font-size: 2em;
+    background-color: #76F68A;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin-bottom: 3vh;
+}
+.boton:hover{
+    transition: 0.5s;
+    border: #76F68A solid 1px;
+    background-color: white;
+    color: #76F68A;
+}
+.text{
+    font-size: 2em;
+    color:#535353 ;
+
+}
