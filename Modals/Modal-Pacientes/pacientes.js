@@ -15,7 +15,7 @@ closeModal.addEventListener('click', (e)=>{
 
 submitBtn.addEventListener('click', (e)=>{
     e.preventDefault();
-    alert('Se ha creado correctamente el usuario    ')
+    alert('Se ha creado correctamente el paciente    ')
     modal.classList.remove('modal--show_pacientes');
 
 })
