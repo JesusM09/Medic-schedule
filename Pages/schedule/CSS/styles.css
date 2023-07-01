@@ -1,270 +1,115 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
   }
   div#contenedor{
-    width:1200px ;
-    height: 700px;
-    margin: 0.5em auto;
-    padding: 0.5em;
+    width: 100vw ;
   
   }
-  div#header{
-    height: 10%;
-    background: #1BB64C;
-    border-radius: 0.5em;
-    margin: 0.5em;
-    text-align: left;
-  }
-  div#nav{
-    height: 8%;
-    background: #F8F8F8;
-    border-radius: 1em;
-    margin: 0.5em;
-    text-align: center;
-    
-  }
-  div#contenido{
-    height: 60%;
-    background: #F0F8F8;
-    /*border-radius: 1em;*/
-    margin: 0.5em;
-  }
-  div#footer{
-    height: 8%;
-    background: #F8F8F8;
-    border-radius: 1em;
-    margin: 0.5em;
-    text-align: center;
-  }
-  div#left{
-    height: 95%;
-    width: 20%;
-    background-color: #1BB64C;
-    /*border-radius: 1em;*/
-    float: left;
-   margin: 0.5em;
-  
-  }
-  div#right{
-    height: 95%;
-    width: 77%;
-    background-color: #F8F8F8;
-    border-radius: 1em;
-    float: right;
-   margin: 0.5em;
-  }
-  nav a{
-        text-decoration:none;
-        color:inherit;
-        font-size:16px;
-        }
-              
-  nav li{
-        display:inline-block;
-        width:270px;
-        height:30px;
-        padding:5px 10px;
-        background-color:#1BB64C;
-        border:1px solid #1BB64C;
-        text-align:center;
-        color:#1BB64C;
-        position:relative;
-  }
-              
-  nav li:hover{
-        background-color:#1BB64C;
-        color:#1BB64C;
-        }
-              
-  nav li>ul{
-        display:none;
-        }
-  
-  nav li:hover>ul{
-        display:block;
-        position:absolute;
-        top:30px;
-        left:0px;
-  }
-  
-  h5
-  {
-    font-size:50px;
-    
-    }
-    div#rightSup
-    {
-      height: 10%;
-      width: 99%;
-      border-radius: 0.5em;
-      margin: 0.5em;
-      background-color:#1BB64C;
-    }
-    div#rightInf{
-      height: 85%;
-      width: 99%;
-      border-radius: 0.5em;
-      margin: 0.5em;
-    }
-    div#Contenido{
-      height: 80%;
-      width: 99%;
-      border-radius: 0.5em;
-      /*margin: 0.5em;*/
-      
-    }
-    div#cita{
-      height: 100%;
-      width: 95%;
-      margin: 1.5em;
-      background-color:lawngreen;
-    }
-    div#cita2{
-      height: 50%;
-      width: 95%;
-      margin: 1.5em;
-      background-color:palegreen;
-    }
-    div#fecha{
-      height: 20%;
-      width: 95%;
-      margin: 0.5em;
-      background-color: darkred;
-    }
-    div#detCita1{
-      height: 20%;
-      width: 98%;
-      margin: 0.5em;
-      background-color: yellow;
-      display:inline-block;
-    }
-    div#detCita2{
-      height: 40%;
-      width: 98%;
-      margin: 0.5em;
-      background-color: palegreen;
-      display:inline-block;
-    }
-    div#col1{
-      height: 10%;
-      width: 97%;
-      margin: 0.5em;
-      /*ackground-color:red;*/
-      float:left;
-    }
-    div#col2{
-      height: 10%;
-      width: 31%;
-      margin: 0.5em;
-      /*background-color:red;*/
-      float:left;
-    }
-    div#rightSupcol1{
-      height: 90%;
-      width: 47%;
-     border-radius: 0.5em;
-     float: left;
-     margin: 0.5em;
-      text-align: center;
-      background-color:#1BB64C;
-    }
-    div#rightSupcol2{
-      height: 90%;
-      width: 47%;
-     border-radius: 0.5em;
-     margin: 0.5em;
-     float: right;
-     text-align: center;
-    }
-    div#rightInfcol1{
-      height: 90%;
-      width: 47%;
-     border-radius: 0.5em;
-     float: left;
-     margin: 0.5em;
-     text-align: center;
-     background-color:#1BB64C;
-    }
-    div#rightInfcol2{
-      height: 90%;
-      width: 47%;
-     border-radius: 0.5em;
-     margin: 0.5em;
-     float: right;
-     text-align: center;
-    }
-   .menulateral {
-      overflow: hidden;
-      position: relative;
-      height: 15em;
-      max-width: 25em;
-      margin: auto;
-      border: 0.2em solid black;
-    }
-    div#lateral {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      padding: 1em;
-      background-color: skyblue;
-   
-      transform: translateX(1em);
-      transition: 0.2s transform;
-    }
-  #nave{
-     width: 98%;
-  }
-  .cuerporec{
-     margin-top: 0px;
-     margin-right: 0pt;
-     margin-bottom: 10px;
-     margin-left: 0pt;
-  }
-  
-  .cuerporec ul{
-     margin-top: 0px;
-     margin-right: 0px;
-     margin-bottom: 0px;
-     margin-left: 0px;
-     padding-top: 0pt;
-     padding-right: 0pt;
-     padding-bottom: 0pt;
-     padding-left: 0px;
-     list-style-type: none;
-     list-style-image: none;
-     list-style-position: outside;
-  }
-  
-  .cuerporec li{
-     border-bottom: 1px solid #d7d7d7;   
-     border-left: 1px solid #d7d7d7;   
-     border-right: 1px solid #d7d7d7;   
-     border:1px solid #000;
-     padding: 1px 0 2px 4px;
-     height:30px;
-     font-size: 12;
-     margin-top: 0px;
-     margin-right: 0pt;
-     margin-bottom: 0px;
-     margin-left: 0pt;
-     background-color:rgb(175, 183, 230);
-     color:#fff;
-  }
-  .cuerporec li:hover{
-        background-color:#fff;
-        color:#000;
-        }
-  .cuerporec a{
-     text-decoration: none;
-  }
-  .cuerporec li>ul{
-    display:none;
-    }
-  
-  .cuerporec li:hover>ul{
-    display:block;
-    position:absolute;
-    top:30px;
-    left:0px;
-  }
+  #encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: #54FCB6;
+    width:100% ;
+    height: 7vh;
+    padding: 0 15px;
+}
+  .header-doc-helper{
+    display: flex;
+}
+
+.header-titulo{
+    font-size: 2em;
+}
+
+.header-fecha{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.img-logo{
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../../Images/terapia.png");
+}
+#main-content{
+  width: 100vw;
+  display: flex;
+}
+
+#sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 7vh;
+  width: 20vw;
+  height: 93vh;
+  background-color: #3BA277;
+}
+
+#img-chedule{
+  width: 150px;
+  height: 150px;
+  background-image: url('../../../Images/Group\ 1.png');
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ul-sidebar{
+  list-style: none;
+  color: black;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.li-sidebar{
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.cita-card{
+  margin:1vw;
+  width: 75vw;
+  background-color: #76F68A;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+
+
+.cita-contenido{
+  display: flex;
+  flex-direction: column;
+  background-color: #C8E7BE;
+  padding: 5px;
+}
+ 
+.span-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.span-container-2{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.p-cita-descripcion{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.cita-fecha{
+  text-align: center;
+  margin: 10px 0px;
+}

@@ -47,151 +47,154 @@
 
 
     <!-- modal--Pacientes -->
-    <section class="modal_pacientes">
-        <div class="modal__container_pacientes">
-            <H1 class="modal__title">Nuevo Paciente</H1>
-            <form class="modal__form_pacientes">
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="name">Nombres</label>
-                        <input class="input__modal" type="text" name="paciente-nombre" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Sexo</label>
-                        <input class="input__modal" type="text" name="paciente-sexo" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Direccion</label>
-                        <input class="input__modal" type="text" name="paciente-direccion" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">DNI/CE/PASS</label>
-                        <input class="input__modal" type="text" name="paciente-dni" required>
-                    </div>
+   <!-- modal--Pacientes -->
+   <section class="modal_pacientes">
+    <div class="modal__container_pacientes">
+        <H1 class="modal__title">Nuevo Paciente</H1>
+        <form class="modal__form_pacientes">
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="">Nombres</label>
+                    <input class="input__modal" type="text" id="paciente-nombre" required>
                 </div>
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="">Apellidos</label>
-                        <input class="input__modal" type="text" name="paciente-apellido" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Edad</label>
-                        <input class="input__modal" type="text" name="paciente-edad" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Teléfono</label>
-                        <input class="input__modal" type="text" name="paciente-telefono" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">E-mail</label>
-                        <input class="input__modal" type="text" name="paciente-correo" required>
-                    </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Sexo</label>
+                    <input class="input__modal" type="text" id="paciente-sexo" required>
                 </div>
-            </form>
-            <div class="btn__container">
-                <button class="btn__close_pacientes">Cancelar</button>
-                <button class="btn__submit_pacientes">Crear</button>
+                <div class="form__control">
+                    <label class="input__label" for="">Direccion</label>
+                    <input class="input__modal" type="text" id="paciente-direccion" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">DNI/CE/PASS</label>
+                    <input class="input__modal" type="text" id="paciente-dni" required>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- modal--Doctor -->
-    <section class="modal_doctor">
-        <div class="modal__container_doctor">
-            <H1 class="modal__title">Nuevo Doctor</H1>
-            <form class="modal__form_doctor">
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="name">Nombres</label>
-                        <input class="input__modal" type="text" name="doctor-nombre" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Sexo</label>
-                        <input class="input__modal" type="text" name="doctor-genero" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Direccion</label>
-                        <input class="input__modal" type="text" name="doctor-direccion" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">CMP</label>
-                        <input class="input__modal" type="text" name="doctor-cmp" required>
-                    </div>
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="">Apellidos</label>
+                    <input class="input__modal" type="text" id="paciente-apellido" required>
                 </div>
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="">Apellidos</label>
-                        <input class="input__modal" type="text" name="doctor-apellido" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Edad</label>
-                        <input class="input__modal" type="text" name="doctor-edad" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Teléfono</label>
-                        <input class="input__modal" type="text" name="doctor-telefono" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Especialidad</label>
-                        <input class="input__modal" type="text" name="doctor-especialidad" required>
-                    </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Edad</label>
+                    <input class="input__modal" type="text" id="paciente-edad" required>
                 </div>
-            </form>
-            <div class="btn__container">
-                <button class="btn__close_doctor">Cancelar</button>
-                <button class="btn__submit_doctor">Crear</button>
+                <div class="form__control">
+                    <label class="input__label" for="">Teléfono</label>
+                    <input class="input__modal" type="text" id="paciente-telefono" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">E-mail</label>
+                    <input class="input__modal" type="text" id="paciente-correo" required>
+                </div>
             </div>
+        </form>
+        <div class="btn__container">
+            <button class="btn__close_pacientes">Cancelar</button>
+            <button class="btn__submit_pacientes">Crear</button>
         </div>
-    </section>
-    <!-- modal--Cita -->
-    <section class="modal_cita">
-        <div class="modal__container_cita">
-            <H1 class="modal__title">Nueva Cita</H1>
-            <form class="modal__form_cita">
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="name">Nombres</label>
-                        <input class="input__modal" type="text" name="cita-nombre" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Sexo</label>
-                        <input class="input__modal" type="text" name="cita-sexo" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Direccion</label>
-                        <input class="input__modal" type="text" name="cita-direccion" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">DNI/CE/PASS</label>
-                        <input class="input__modal" type="text" name="cita-dni" required>
-                    </div>
+    </div>
+</section>
+<!-- modal--Doctor -->
+<section class="modal_doctor">
+    <div class="modal__container_doctor">
+        <H1 class="modal__title">Nuevo Doctor</H1>
+        <form class="modal__form_doctor">
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="name">Nombres</label>
+                    <input class="input__modal" type="text" id="doctor-nombre" required>
                 </div>
-                <div class="col-50">
-                    <div class="form__control">
-                        <label class="input__label" for="">Apellidos</label>
-                        <input class="input__modal" type="text" name="cita-apellido" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Edad</label>
-                        <input class="input__modal" type="text" name="cita-edad" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">Teléfono</label>
-                        <input class="input__modal" type="text" name="cita-telefono" required>
-                    </div>
-                    <div class="form__control">
-                        <label class="input__label" for="">E-mail</label>
-                        <input class="input__modal" type="text" name="cita-correo" required>
-                    </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Sexo</label>
+                    <input class="input__modal" type="text" id="doctor-sexo" required>
                 </div>
-                <label class="input__label" for="">Descripcion</label>
-                <textarea class="txta__modal" id="" cols="30" rows="5" name="cita-descripcion"></textarea>
-            </form>
-            <div class="btn__container">
-                <button class="btn__close_cita">Cancelar</button>
-                <button class="btn__submit_cita">Crear</button>
+                <div class="form__control">
+                    <label class="input__label" for="">Direccion</label>
+                    <input class="input__modal" type="text" id="doctor-direccion" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">CMP</label>
+                    <input class="input__modal" type="text" id="doctor-cmp" required>
+                </div>
             </div>
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="">Apellidos</label>
+                    <input class="input__modal" type="text" id="doctor-apellido" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Edad</label>
+                    <input class="input__modal" type="text" id="doctor-edad" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Teléfono</label>
+                    <input class="input__modal" type="text" id="doctor-telefono" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Especialidad</label>
+                    <input class="input__modal" type="text" id="doctor-especialidad" required>
+                </div>
+            </div>
+        </form>
+        <div class="btn__container">
+            <button class="btn__close_doctor">Cancelar</button>
+            <button class="btn__submit_doctor">Crear</button>
         </div>
-    </section>
+    </div>
+</section>
+<!-- modal--Cita -->
+<section class="modal_cita">
+    <div class="modal__container_cita">
+        <H1 class="modal__title">Nueva Cita</H1>
+        <form class="modal__form_cita">
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="name">Paciente</label>
+                    <select class="input__modal" id="cita-paciente" required>
+                        <option value="" selected >Seleccione un Paciente</option>
+                    </select>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Fecha</label>
+                    <input class="input__modal" type="date" id="cita-fecha" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Costo (S/)</label>
+                    <input class="input__modal" type="number" id="cita-costo" required>
+                </div>
+            </div>
+            <div class="col-50">
+                <div class="form__control">
+                    <label class="input__label" for="">Doctor</label>
+                    <select class="input__modal" id="cita-doctor" required>
+                        <option value="">Seleccione un doctor</option>
+                    </select>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Hora</label>
+                    <input class="input__modal" type="text" id="cita-hora" required>
+                </div>
+                <div class="form__control">
+                    <label class="input__label" for="">Método de pago</label>
+                    <select class="input__modal" id="cita-metodo-pago" required>
+                        <option value="">Seleccione un Metodo de pago</option>
+                        <option value="efectivo">Efectivo</option>
+                        <option value="tarjeta">Tarjeta</option>
+                        <option value="yape">Yape</option>
+                        <option value="plin">Plin</option>
+                    </select>
+                </div>
+            </div>
+            <label class="input__label" for="">Descripcion</label>
+            <input id="cita-descripcion" required>
+        </form>
+        <div class="btn__container">
+            <button class="btn__close_cita">Cancelar</button>
+            <button class="btn__submit_cita">Crear</button>
+        </div>
+    </div>
+</section>
     <script src="/Modals/Modal-Pacientes/pacientes.js"></script>
     <script src="/Modals/Modal-Doctor/doctor.js"></script>
     <script src="/Modals/Modal-Cita/cita.js"></script>

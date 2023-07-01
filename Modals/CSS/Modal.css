@@ -21,6 +21,15 @@
     border: 1px solid  #76F68A;
 }
 
+#cita-descripcion{
+    width: 100%;
+    padding-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    border: 1px solid #c6c6c6;
+}
+
 .txta__modal{
     width: 100%;
     padding-left: 5px;
